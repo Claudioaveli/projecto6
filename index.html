@@ -46,10 +46,30 @@ header{
 
 body{
   
-  
-  background-color: blue;
+  background-image: url(fundo1.jpg);
+  position: relative;
+  animation: corpo 60s ease-in-out infinite alternate;
   
 }
+
+  @keyframes corpo{
+
+    0%{
+       background-image: url(fundo1.jpg);
+      
+    }
+    
+    50%{
+
+        background-image: url(fundo3.jpg);
+      
+    }
+
+    100%{
+      background-image: url(fundo4.jpg);
+    }
+  }
+  
 
 header nav ul{
   
